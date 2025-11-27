@@ -23,3 +23,6 @@ Este projeto foi desenvolvido em grupo e segue a divisão de atividades entre os
 
 Cada integrante realizou pelo menos um commit significativo com mensagem clara,
 garantindo participação registrada no histórico do GitHub.
+
+
+. Ajuste de formatação realizado por<Pedro Henrique Hortêncio de Oliveira>
