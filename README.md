@@ -16,14 +16,6 @@ Este repositório contém todo o projeto completo e totalmente estruturado da at
 - Interface de linha de comando (CLI) e endpoint opcional em Flask
 - Testes unitários completos cobrindo múltiplos cenários
 
-## Como executar localmente
-
-### 1. (Opcional) Criar ambiente virtual
-```bash
-python -m venv .venv
-source .venv/bin/activate       # Linux/Mac
-.venv\Scripts\activate          # Windows
-
 ## Linha do Tempo de Desenvolvimento
 
 - **15/09 – Início do projeto e criação do código legado**
@@ -37,3 +29,11 @@ source .venv/bin/activate       # Linux/Mac
 - **12/11 – Criação dos testes unitários**
 - **20/11 – Documentação e organização do repositório**
 - **26/11 – Conclusão e entrega final do projeto**
+
+## Como executar localmente
+
+### 1. (Opcional) Criar ambiente virtual
+```bash
+python -m venv .venv
+source .venv/bin/activate       # Linux/Mac
+.venv\Scripts\activate          # Windows
