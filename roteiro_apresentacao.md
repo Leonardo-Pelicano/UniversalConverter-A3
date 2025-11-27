@@ -1,20 +1,64 @@
+Apresentação — Notas para os Apresentadores (Speaker Notes)
+Slide 1 — Introdução (Leonardo Melo Pelicano)
 
-# Apresentacao - Speaker Notes
+Explicar rapidamente o objetivo da A3.
 
-Slide 1 - Introdução (Membro 1)
-- Explique o objetivo do projeto A3 e a importância de Clean Code.
-- Dê o contexto do problema: código legado monolítico.
+Apresentar o problema do código legado: monolítico, confuso e difícil de manter.
 
-Slide 2 - Problemas Encontrados (Membro 2)
-- Mostre trechos do codigo-original e destaque ifs aninhados, falta de testes, prints na lógica.
+Contextualizar por que a refatoração é necessária.
 
-Slide 3 - Refatoração (Membro 3)
-- Explique Design Pattern (Strategy + Factory), a escolha de unidades base (Kelvin/Meter/Kg).
-- Mostre como adicionar um novo conversor é simples.
+Slide 2 — Problemas Identificados (Carlos Eduardo dos Santos Junior)
 
-Slide 4 - Testes e CI (Membro 4)
-- Rode pytest (mostrar saída).
-- Explique Github Actions (o workflow incluso) e como ele valida PRs.
+Mostrar (ou citar) exemplos do código original.
 
-Slide 5 - Conclusão (Todos)
-- Lições aprendidas, benefícios do Clean Code, próximas melhorias.
+Destacar problemas como:
+
+condicionais muito grandes
+
+duplicação de lógica
+
+ausência de testes
+
+mistura de responsabilidades
+
+Enfatizar por que esse código é ruim para manutenção.
+
+Slide 3 — Refatoração e Arquitetura (Pedro Henrique Hôrtencio de Oliveira)
+
+Explicar a escolha dos padrões Strategy + Factory.
+
+Mostrar como o conversor foi dividido em classes independentes.
+
+Falar sobre as unidades base (Kelvin, Metro, Quilo) e por que isso facilita tudo.
+
+Destacar como agora é fácil adicionar novas unidades.
+
+Slide 4 — Testes (Leonardo)
+
+(Como deixamos só 3 membros, Leonardo assume essa parte também — sem problemas)
+
+Explicar que os testes foram implementados com pytest.
+
+Mostrar (ou contar) que cobrimos:
+
+temperatura
+
+comprimento
+
+peso
+
+entradas inválidas
+
+Explicar a importância dos testes na refatoração.
+
+(Removi GitHub Actions, já que com 3 membros é opcional e não necessário para nota)
+
+Slide 5 — Conclusão (Todos)
+
+Cada um fala uma frase curta:
+
+Leonardo: impacto de Clean Code no projeto.
+
+Carlos: como o código ficou mais simples de evoluir.
+
+Pedro: o que poderia ser melhorado em versões futuras.
