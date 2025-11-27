@@ -5,8 +5,11 @@ Este documento descreve a divisão dos slides e os pontos principais que cada in
 Slide 1 — Introdução (Leonardo Melo Pelicano)
 
 -Explicar o objetivo geral da A3.
+
 -Destacar a importância de Clean Code e boas práticas.
+
 -Apresentar o contexto do código original: estrutura monolítica e difícil manutenção.
+
 -Introduzir a motivação para realizar a refatoração.
 
 Slide 2 — Problemas Identificados (Carlos Eduardo dos Santos Junior)
