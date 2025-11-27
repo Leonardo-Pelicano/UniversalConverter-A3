@@ -28,4 +28,4 @@ docs: adicionar relatório completo Relatorio_A3_detalhado.pdf
 ci: adicionar workflow do GitHub Actions para executar testes
 
 >>>>>>> 487b4546f16487c420a16a6b4496fd3334df2298
-- Revisão Final por Carlos Eduardo dos Santos Júnior 
+- Revisão Final por Carlos Eduardo dos Santos Júnior
