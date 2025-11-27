@@ -1,0 +1,25 @@
+
+Tarefas detalhadas (para distribuir aos membros):
+
+1) (Owner) Subir repositório no GitHub
+   - Criar repositório público
+   - Criar pastas /codigo-original e /codigo-refatorado
+   - Fazer commit inicial com os arquivos originais
+
+2) (Dev) Revisar codigo-refatorado
+   - Rodar testes
+   - Refatorar nomes, adicionar typing (opcional)
+   - Fazer commit "refactor: improve naming and typing"
+
+3) (Tests) Ampliar testes
+   - Cobrir edge cases, limites e conversões encadeadas
+   - Criar GitHub Actions workflow
+   - Fazer commit "ci: add pytest workflow"
+
+4) (Docs) Finalizar relatório e slides
+   - Ajustar relatório PDF com contribuições individuais
+   - Fazer commit "docs: add final report and presentation notes"
+
+5) (All) Verificações finais
+   - Cada membro comenta no PR e aprova
+   - Fazer apresentação presencial, cada um explica sua parte
