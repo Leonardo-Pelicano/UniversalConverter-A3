@@ -1,93 +1,44 @@
-##Slide 1 — Introdução
+Notas de Apresentação (Speaker Notes)
 
-Apresentador: Leonardo Melo Pelicano
+Este documento descreve a divisão dos slides e os pontos principais que cada integrante apresentará durante a apresentação do projeto.
 
-Pontos-chave para falar:
+Slide 1 — Introdução (Leonardo Melo Pelicano)
 
-Objetivo da A3: criar um código legado, depois refatorar com boas práticas.
+-Explicar o objetivo geral da A3.
+-Destacar a importância de Clean Code e boas práticas.
+-Apresentar o contexto do código original: estrutura monolítica e difícil manutenção.
+-Introduzir a motivação para realizar a refatoração.
 
-Importância de Clean Code e manutenção de software.
+Slide 2 — Problemas Identificados (Carlos Eduardo dos Santos Junior)
 
-Contexto inicial: código monolítico, confuso e difícil de evoluir.
+-Apontar os principais problemas do código original.
 
-Explicar que o objetivo é melhorar a qualidade sem mudar o comportamento.
+Destacar:
+-Condicionais aninhadas.
+-Funções extensas e sem responsabilidade única.
+-Ausência de testes.
+-Mistura de lógica, prints e validações.
+-Explicar como esses problemas dificultavam evolução e manutenção.
 
-Slide 2 — Problemas Identificados
+Slide 3 — Refatoração e Arquitetura (Pedro Henrique Hôrtencio de Oliveira)
 
-Apresentador: Carlos Eduardo dos Santos Junior
+-Explicar a utilização dos padrões Strategy e Factory.
+-Apresentar como o código foi modularizado em classes e pacotes.
+-Comentar sobre o uso de unidades base (Kelvin, Metro, Quilograma).
+-Mostrar como a nova arquitetura facilita a extensão do sistema.
 
-Pontos-chave para falar:
+Slide 4 — Testes Unitários (Leonardo Melo Pelicano)
 
-Código original tinha diversos problemas estruturais:
+-Explicar que os testes foram implementados com pytest.
+-Apresentar o que foi testado:
+-Conversões de temperatura.
+-Conversões de comprimento.
+-Conversões de peso.
+-Tratamento de valores inválidos.
+-Reforçar a importância dos testes para garantir comportamento do código refatorado.
 
-Condicionais enormes (ifs aninhados).
+Slide 5 — Conclusão (Todos os Membros)
 
-Funções longas e de responsabilidade múltipla.
-
-Ausência total de testes.
-
-Mistura de cálculos, prints e validações.
-
-Explicar por que isso dificulta manutenção, testes e evolução.
-
-Reforçar necessidade real de refatoração.
-
-##Slide 3 — Refatoração e Arquitetura
-
-Apresentador: Pedro Henrique Hôrtencio de Oliveira
-
-Pontos-chave para falar:
-
-Decisão de utilizar os padrões Strategy + Factory.
-
-Separação das conversões em classes individuais.
-
-Uso de unidades base internas:
-
-Kelvin
-
-Metro
-
-Quilograma
-
-Como a nova estrutura facilita adicionar novos conversores.
-
-Destaque: baixa dependência entre módulos.
-
-##Slide 4 — Testes Unitários
-
-Apresentador: Leonardo Melo Pelicano
-
-Pontos-chave para falar:
-
-Testes escritos com pytest.
-
-O que foi coberto:
-
-Temperatura
-
-Comprimento
-
-Peso
-
-Casos inválidos
-
-Importância dos testes na refatoração:
-
-Garantir que comportamento antigo não foi quebrado.
-
-Segurança para evoluir.
-
-Código mais confiável.
-
-##Slide 5 — Conclusão
-
-Apresentadores: Todos os membros
-
-Cada um fala uma frase curta:
-
-Leonardo: reforçar o impacto do Clean Code e da arquitetura aplicada.
-
-Carlos: comentar como o código se tornou mais legível e sustentável.
-
-Pedro: falar brevemente sobre possíveis melhorias futuras (ex: interface web mais completa, mais unidades, testes extras).
+-Leonardo: comentar o impacto da refatoração e das boas práticas no resultado final.
+-Carlos: destacar como o código ficou mais limpo e fácil de manter.
+-Pedro: sugerir melhorias futuras (novas unidades, interface, mais testes).
