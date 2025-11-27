@@ -23,3 +23,17 @@ Este repositório contém todo o projeto completo e totalmente estruturado da at
 python -m venv .venv
 source .venv/bin/activate       # Linux/Mac
 .venv\Scripts\activate          # Windows
+
+## Linha do Tempo de Desenvolvimento
+
+- **15/09 – Início do projeto e criação do código legado**
+- **20/09 – Implementação das versões iniciais do código original**
+- **30/09 – Publicação do código original no GitHub**
+- **05/10 – Início da refatoração (Strategy, Factory e organização modular)**
+- **10/10 – Implementação das classes de conversão**
+- **17/10 – Implementação da fábrica de conversores**
+- **25/10 – Criação do serviço central de conversão**
+- **03/11 – Implementação da CLI**
+- **12/11 – Criação dos testes unitários**
+- **20/11 – Documentação e organização do repositório**
+- **26/11 – Conclusão e entrega final do projeto**
