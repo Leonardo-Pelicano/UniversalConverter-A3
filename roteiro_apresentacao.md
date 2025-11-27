@@ -1,64 +1,93 @@
-Apresentação — Notas para os Apresentadores (Speaker Notes)
-Slide 1 — Introdução (Leonardo Melo Pelicano)
+##Slide 1 — Introdução
 
-Explicar rapidamente o objetivo da A3.
+Apresentador: Leonardo Melo Pelicano
 
-Apresentar o problema do código legado: monolítico, confuso e difícil de manter.
+Pontos-chave para falar:
 
-Contextualizar por que a refatoração é necessária.
+Objetivo da A3: criar um código legado, depois refatorar com boas práticas.
 
-Slide 2 — Problemas Identificados (Carlos Eduardo dos Santos Junior)
+Importância de Clean Code e manutenção de software.
 
-Mostrar (ou citar) exemplos do código original.
+Contexto inicial: código monolítico, confuso e difícil de evoluir.
 
-Destacar problemas como:
+Explicar que o objetivo é melhorar a qualidade sem mudar o comportamento.
 
-condicionais muito grandes
+Slide 2 — Problemas Identificados
 
-duplicação de lógica
+Apresentador: Carlos Eduardo dos Santos Junior
 
-ausência de testes
+Pontos-chave para falar:
 
-mistura de responsabilidades
+Código original tinha diversos problemas estruturais:
 
-Enfatizar por que esse código é ruim para manutenção.
+Condicionais enormes (ifs aninhados).
 
-Slide 3 — Refatoração e Arquitetura (Pedro Henrique Hôrtencio de Oliveira)
+Funções longas e de responsabilidade múltipla.
 
-Explicar a escolha dos padrões Strategy + Factory.
+Ausência total de testes.
 
-Mostrar como o conversor foi dividido em classes independentes.
+Mistura de cálculos, prints e validações.
 
-Falar sobre as unidades base (Kelvin, Metro, Quilo) e por que isso facilita tudo.
+Explicar por que isso dificulta manutenção, testes e evolução.
 
-Destacar como agora é fácil adicionar novas unidades.
+Reforçar necessidade real de refatoração.
 
-Slide 4 — Testes (Leonardo)
+##Slide 3 — Refatoração e Arquitetura
 
-(Como deixamos só 3 membros, Leonardo assume essa parte também — sem problemas)
+Apresentador: Pedro Henrique Hôrtencio de Oliveira
 
-Explicar que os testes foram implementados com pytest.
+Pontos-chave para falar:
 
-Mostrar (ou contar) que cobrimos:
+Decisão de utilizar os padrões Strategy + Factory.
 
-temperatura
+Separação das conversões em classes individuais.
 
-comprimento
+Uso de unidades base internas:
 
-peso
+Kelvin
 
-entradas inválidas
+Metro
 
-Explicar a importância dos testes na refatoração.
+Quilograma
 
-(Removi GitHub Actions, já que com 3 membros é opcional e não necessário para nota)
+Como a nova estrutura facilita adicionar novos conversores.
 
-Slide 5 — Conclusão (Todos)
+Destaque: baixa dependência entre módulos.
+
+##Slide 4 — Testes Unitários
+
+Apresentador: Leonardo Melo Pelicano
+
+Pontos-chave para falar:
+
+Testes escritos com pytest.
+
+O que foi coberto:
+
+Temperatura
+
+Comprimento
+
+Peso
+
+Casos inválidos
+
+Importância dos testes na refatoração:
+
+Garantir que comportamento antigo não foi quebrado.
+
+Segurança para evoluir.
+
+Código mais confiável.
+
+##Slide 5 — Conclusão
+
+Apresentadores: Todos os membros
 
 Cada um fala uma frase curta:
 
-Leonardo: impacto de Clean Code no projeto.
+Leonardo: reforçar o impacto do Clean Code e da arquitetura aplicada.
 
-Carlos: como o código ficou mais simples de evoluir.
+Carlos: comentar como o código se tornou mais legível e sustentável.
 
-Pedro: o que poderia ser melhorado em versões futuras.
+Pedro: falar brevemente sobre possíveis melhorias futuras (ex: interface web mais completa, mais unidades, testes extras).
