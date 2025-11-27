@@ -1,35 +1,25 @@
 
-# UniversalConverter - A3 Complete Project
+# UniversalConverter – Projeto A3 Completo
 
-This repository contains a complete, polished refactoring project for the A3 assignment:
-- `codigo-original/` : intentionally messy legacy code (for "before")
-- `codigo-refatorado/` : cleaned, well-structured package using Strategy/Factory patterns
-- `Relatorio_A3_detalhado.pdf` : full report (in project root)
-- `Apresentacao_speaker_notes.md` : suggestion of what each member should say (in root)
-- `tests/` : extensive pytest suite
+Este repositório contém todo o projeto completo e totalmente estruturado da atividade A3:
 
-## Features
-- Temperature, Length, and Weight conversions
-- Canonical base units used internally (Kelvin, Meter, Kilogram)
-- Clear separation of responsibilities
-- CLI and optional Flask web endpoint
-- Comprehensive unit tests
+- `codigo-original/` : código legado propositalmente confuso (versão “antes”)
+- `codigo-refatorado/` : pacote limpo, modular e organizado utilizando os padrões Strategy e Factory
+- `Relatorio_A3_detalhado.pdf` : relatório completo do projeto (na raiz)
+- `Apresentacao_speaker_notes.md` : orientações do que cada membro pode falar na apresentação
+- `tests/` : suíte de testes unitários usando PyTest
 
-## How to run locally
-1. (Optional) create a virtualenv:
-   python -m venv .venv
-   source .venv/bin/activate   # Linux/Mac
-   .venv\Scripts\activate    # Windows
+## Funcionalidades
+- Conversões entre Temperatura, Comprimento e Peso
+- Uso de unidades canônicas internas (Kelvin, Metro e Quilograma)
+- Separação clara de responsabilidades (SOLID)
+- Interface de linha de comando (CLI) e endpoint opcional em Flask
+- Testes unitários completos cobrindo múltiplos cenários
 
-2. Install dependencies:
-   pip install -r codigo-refatorado/requirements.txt
+## Como executar localmente
 
-3. Run tests:
-   pytest -q codigo-refatorado/tests
-
-4. Run CLI:
-   python codigo-refatorado/run_converter.py 100 c f
-
-5. (Optional) Run Flask app:
-   export FLASK_APP=codigo-refatorado/universal_converter/webapp.py
-   python -m flask run
+### 1. (Opcional) Criar ambiente virtual
+```bash
+python -m venv .venv
+source .venv/bin/activate       # Linux/Mac
+.venv\Scripts\activate          # Windows
