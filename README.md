@@ -16,7 +16,15 @@ Este repositório contém todo o projeto completo e totalmente estruturado da at
 - Interface de linha de comando (CLI) e endpoint opcional em Flask
 - Testes unitários completos cobrindo múltiplos cenários
 
-## Linha do Tempo de Desenvolvimento
+## Grupo e Linha do Tempo de Desenvolvimento
+
+- **GRUPO:**
+
+- **Leonardo Melo Pelicano - 823127961**
+- **Pedro Henrique Hortêncio de Oliveira- 823117300**
+- _Carlos Eduardo dos Santos Junior-823125602_
+
+  ---
 
 - **15/09 – Início do projeto e criação do código legado**
 - **20/09 – Implementação das versões iniciais do código original**
